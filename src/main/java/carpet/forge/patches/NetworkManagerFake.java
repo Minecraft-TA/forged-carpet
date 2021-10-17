@@ -15,6 +15,16 @@ public class NetworkManagerFake extends NetworkManager
     }
 
     @Override
+    public void sendPacket(Packet<?> packetIn) 
+    {
+    }
+
+    @Override
+    public void sendPacket(Packet<?> packetIn, GenericFutureListener<? extends Future<? super Void>> listener, GenericFutureListener<? extends Future<? super Void>>... listeners) 
+    {
+    }
+
+    @Override
     public void disableAutoRead()
     {
     }
